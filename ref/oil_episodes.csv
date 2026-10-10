@@ -1,0 +1,20 @@
+# Złoto E3 (etap 4N): epizody naftowe i dominująca przyczyna wg literatury. Przepisane 2026-10-07 przed uruchomieniem E3.
+# Źródła: Hamilton (2011) „Historical Oil Shocks”, NBER WP 16790 (Table 1, §4–5); Baumeister & Kilian (2016) „Forty Years
+# of Oil Price Fluctuations”, wersja robocza CFS WP 525 (EconStor hdl 10419/125831; JEP przez AEA = 403, nieobchodzone).
+# Cytaty dosłowne sprawdzone w pobranych tekstach. disputed=tak: źródła różnią się -> poza metryką (decyzja 2026-10-07),
+# odpowiedź modelu pokazywana osobno obok obu wersji. Okno = suma okien ze źródeł. Po 2003 brak chronologii (P4/P5) ->
+# epizody 10–13 nie mają wejścia i są pomijane przez validate_causes.py.
+episode_id,start,end,short_name,dominant_cause,disputed,cause_hamilton,cause_bk,cytat
+E3-01,1973-09,1974-01,1973/74 oil crisis,global_demand,nie,,global_demand,"BK p.7: ""much of the oil crisis of 1973/74 actually was driven by increased demand for oil rather than reductions in oil supply"" (Hamilton Table 1: mieszanka bez dominującej)"
+E3-02,1978-09,1980-04,1979/80 oil crisis,,tak,supply,global_demand,"Hamilton Table 1: ""Iranian revolution""; BK p.8: ""two thirds … explained by … flow demand shocks triggered by an unexpectedly strong global economy"""
+E3-03,1980-09,1981-02,Iran-Iraq War,supply,nie,supply,supply,"Hamilton Table 1: ""Iran-Iraq War""; BK p.8: ""must be attributed to this oil supply disruption"""
+E3-04,1985-12,1986-12,1986 price collapse,,tak,supply,precautionary,"Hamilton p.18: Saudis ""ramp production back up in 1986""; BK p.10: ""more importantly by a reduction in inventory demand for oil"""
+E3-05,1990-08,1990-10,Gulf War I spike,supply,nie,supply,,"Hamilton Table 1: ""Gulf War I"" (BK: podaż i zapasy „equally important” -> bez dominującej)"
+E3-06,1990-11,1991-03,Post-Kuwait price fall,precautionary,nie,,precautionary,"BK p.10: ""these fears subsided and the price of oil fell sharply along with inventory demand"""
+E3-07,1996-12,1998-12,Asian crisis decline,global_demand,nie,global_demand,global_demand,"Hamilton p.20: Asian crisis, price below $12; BK p.11: ""largely associated with reduced demand for crude oil"""
+E3-08,1999-12,2000-11,1999-2000 run-up,global_demand,nie,global_demand,,"Hamilton Table 1: ""strong demand"" (BK: „combination of factors” -> bez dominującej)"
+E3-09,2002-11,2003-03,Venezuela strike + Iraq War,supply,nie,supply,supply,"Hamilton Table 1: ""Venezuela unrest, Gulf War II""; BK p.11: ""two major exogenous oil supply disruptions"""
+E3-10,2004-01,2005-12,2004-05 demand-led rise,global_demand,nie,global_demand,,"Hamilton p.21 (po 2003: brak chronologii -> pominięty)"
+E3-11,2003-06,2008-06,Great surge 2003-08,global_demand,nie,,global_demand,"BK p.12 (po 2003: brak chronologii -> pominięty)"
+E3-12,2008-06,2009-02,2008 collapse,global_demand,nie,,global_demand,"BK p.12 (po 2003: brak chronologii -> pominięty)"
+E3-13,2009-03,2009-12,2009 recovery,global_demand,nie,,global_demand,"BK p.13 (po 2003: brak chronologii -> pominięty)"

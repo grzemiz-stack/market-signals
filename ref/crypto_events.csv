@@ -1,0 +1,23 @@
+# P8 (docs/ZRODLA-PRZYCZYN.md): daty stałe krypto, wpisane ręcznie 2026-10-06. Dzień = UTC.
+# verified: co sprawdzono u źródła ("nie" = data z dokumentu źródeł, do sprawdzenia; w raporcie lista).
+event_id,event_date,date_precision,category,assets,text,url,verified
+halving-1,2012-11-28,day,crypto_supply,BTC,"Halving 1 (blok 210000, 15:24 UTC)",https://blockstream.info/block-height/210000,"tak: znacznik czasu bloku z API blockstream"
+halving-2,2016-07-09,day,crypto_supply,BTC,"Halving 2 (blok 420000, 16:46 UTC)",https://blockstream.info/block-height/420000,"tak: znacznik czasu bloku z API blockstream"
+halving-3,2020-05-11,day,crypto_supply,BTC,"Halving 3 (blok 630000, 19:23 UTC)",https://blockstream.info/block-height/630000,"tak: znacznik czasu bloku z API blockstream"
+halving-4,2024-04-20,day,crypto_supply,BTC,"Halving 4 (blok 840000, 00:09 UTC)",https://blockstream.info/block-height/840000,"tak: znacznik czasu bloku z API blockstream"
+depeg-dai,2020-03-12,day,leverage_liquidations,"BTC,ETH","DAI traci parytet, kaskada likwidacji MakerDAO (Black Thursday)",https://en.wikipedia.org/wiki/Dai_(cryptocurrency),"częściowo: Wikipedia podaje marzec 2020 bez dnia"
+depeg-iron,2021-06-16,day,leverage_liquidations,"BTC,ETH","Upadek IRON Finance (TITAN do zera, IRON traci parytet)",https://en.wikipedia.org/wiki/Iron_Finance,"częściowo: Wikipedia podaje upadek 17.06.2021; spadek TITAN 16.06 (czas USA) — dzień ±1"
+depeg-ust,2022-05-09,day,leverage_liquidations,"BTC,ETH","UST traci parytet, krach Terra/LUNA (7–13.05.2022)",https://en.wikipedia.org/wiki/Terra_(blockchain),"częściowo: Wikipedia potwierdza krach UST w maju 2022; dzień 9.05 z dokumentu źródeł"
+depeg-usdt,2022-05-12,day,leverage_liquidations,"BTC,ETH","USDT chwilowo poniżej parytetu (ok. 0,95 USD) w trakcie krachu Terra",,"nie"
+depeg-usdc,2023-03-11,day,leverage_liquidations,"BTC,ETH","USDC traci parytet: 3,3 mld USD rezerw w upadłym Silicon Valley Bank",https://en.wikipedia.org/wiki/USDC_(cryptocurrency),"tak: Wikipedia 'On March 11, 2023'"
+depeg-fdusd,2025-04-02,day,leverage_liquidations,"BTC,ETH","FDUSD traci parytet po zarzutach wobec emitenta (First Digital)",,"nie"
+etf-btc-approval,2024-01-10,day,crypto_etf,"BTC,ETH","SEC zatwierdza spot ETF na BTC",,"nie"
+etf-btc-trading,2024-01-11,day,crypto_etf,"BTC,ETH","Start notowań spot ETF na BTC w USA",,"nie"
+etf-eth-approval,2024-05-23,day,crypto_etf,ETH,"SEC zatwierdza wnioski 19b-4 dla spot ETF na ETH",,"nie"
+etf-eth-trading,2024-07-23,day,crypto_etf,ETH,"Start notowań spot ETF na ETH w USA",,"nie"
+ftx-binance,2022-11-08,day,leverage_liquidations,"BTC,ETH","Binance ogłasza niewiążącą umowę przejęcia FTX (kryzys płynności FTX)",,"nie"
+ftx-bankruptcy,2022-11-11,day,leverage_liquidations,"BTC,ETH","FTX składa wniosek o upadłość",https://en.wikipedia.org/wiki/Bankruptcy_of_FTX,"tak: Wikipedia/NYT 11.11.2022"
+china-ico-2017,2017-09-04,day,crypto_regulation,"BTC,ETH","Chiny zakazują ICO",,"nie"
+china-exch-2017,2017-09-15,day,crypto_regulation,"BTC,ETH","Chińskie giełdy krypto ogłaszają zamknięcie handlu",,"nie"
+china-mining-2021,2021-05-21,day,crypto_regulation,"BTC,ETH","Rada Państwa ChRL zapowiada rozprawę z kopaniem i handlem krypto",,"nie"
+china-ban-2021,2021-09-24,day,crypto_regulation,"BTC,ETH","Chiny: całkowity zakaz handlu i kopania krypto",https://en.wikipedia.org/wiki/Legality_of_cryptocurrency_by_country_or_territory,"tak: Wikipedia 'put into effect on 24 September 2021'"

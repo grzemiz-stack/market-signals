@@ -1,0 +1,72 @@
+# Kontrola pamięci (E2, E3): nazwy zamieniane na znaczniki; lata i nazwy miesięcy usuwane. Lista ręczna 2026-10-07
+# (kraje i organizacje z chronologii EIA/Wikipedii o ropie); niepełna z natury — zapis w raporcie.
+term,kind,entity
+Saudi Arabia,KRAJ,Saudi Arabia
+Saudi,KRAJ,Saudi Arabia
+Iran,KRAJ,Iran
+Iranian,KRAJ,Iran
+Iraq,KRAJ,Iraq
+Iraqi,KRAJ,Iraq
+Kuwait,KRAJ,Kuwait
+Kuwaiti,KRAJ,Kuwait
+Libya,KRAJ,Libya
+Libyan,KRAJ,Libya
+Venezuela,KRAJ,Venezuela
+Nigeria,KRAJ,Nigeria
+Algeria,KRAJ,Algeria
+Qatar,KRAJ,Qatar
+United Arab Emirates,KRAJ,United Arab Emirates
+UAE,KRAJ,United Arab Emirates
+Abu Dhabi,KRAJ,United Arab Emirates
+Oman,KRAJ,Oman
+Syria,KRAJ,Syria
+Egypt,KRAJ,Egypt
+Israel,KRAJ,Israel
+Russia,KRAJ,Russia
+Soviet Union,KRAJ,Russia
+USSR,KRAJ,Russia
+Soviet,KRAJ,Russia
+Mexico,KRAJ,Mexico
+Norway,KRAJ,Norway
+United Kingdom,KRAJ,United Kingdom
+Britain,KRAJ,United Kingdom
+British,KRAJ,United Kingdom
+United States,KRAJ,United States
+U.S.,KRAJ,United States
+US,KRAJ,United States
+America,KRAJ,United States
+American,KRAJ,United States
+Canada,KRAJ,Canada
+China,KRAJ,China
+Chinese,KRAJ,China
+Japan,KRAJ,Japan
+Japanese,KRAJ,Japan
+Indonesia,KRAJ,Indonesia
+Ecuador,KRAJ,Ecuador
+Gabon,KRAJ,Gabon
+Angola,KRAJ,Angola
+Kazakhstan,KRAJ,Kazakhstan
+Yemen,KRAJ,Yemen
+Lebanon,KRAJ,Lebanon
+Jordan,KRAJ,Jordan
+Turkey,KRAJ,Turkey
+France,KRAJ,France
+Germany,KRAJ,Germany
+Netherlands,KRAJ,Netherlands
+Korea,KRAJ,Korea
+Thailand,KRAJ,Thailand
+Asia,REGION,Asia
+Asian,REGION,Asia
+Persian Gulf,REGION,Persian Gulf
+Gulf,REGION,Gulf
+Middle East,REGION,Middle East
+North Sea,REGION,North Sea
+Alaska,REGION,Alaska
+OPEC,ORGANIZACJA,OPEC
+OAPEC,ORGANIZACJA,OAPEC
+IEA,ORGANIZACJA,IEA
+International Energy Agency,ORGANIZACJA,IEA
+Aramco,ORGANIZACJA,Aramco
+Pemex,ORGANIZACJA,Pemex
+NYMEX,ORGANIZACJA,NYMEX
+Federal Reserve,ORGANIZACJA,Federal Reserve

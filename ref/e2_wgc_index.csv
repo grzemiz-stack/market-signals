@@ -1,0 +1,58 @@
+# Wzorzec E2 (etap 4N) BEZ cytatów: komentarze World Gold Council (Gold Market Commentary) — miesiąc, URL, kod.
+# Cytaty nie są dołączone (warunki gold.org: tylko użytek osobisty). start/length = położenie zdania w tekście strony
+# (src/e2_wgc_restore.py: page_text), sha256 = kontrola. Odtworzenie lokalne: uv run src/e2_wgc_restore.py
+miesiac,url,kod,wlaczony,uwaga,konwencja,start,length,sha256
+2021-03,https://www.gold.org/goldhub/research/gold-market-commentary-march-2021,,nie,brak przyczyny w publicznej części (tylko opis ruchu),,,,
+2021-04,https://www.gold.org/goldhub/research/gold-market-commentary-april-2021,macro,tak,pierwszy czynnik: inflacja,,2999,181,98a382a7fdc1025b38bc14722028cf84a25caad270a364fcce6667adef99248c
+2021-05,https://www.gold.org/goldhub/research/gold-market-commentary-may-2021,,nie,"pierwszy czynnik spoza taksonomii (momentum) — kod dopiero dla drugiego (kierunek A, decyzja 2026-10-07)",,2244,195,486ef112cd6a9b93681ee13a53df57d21869b11ac5efd115aa47a82de7288343
+2021-07,https://www.gold.org/goldhub/research/gold-market-commentary-july-2021,,nie,"pierwszy czynnik spoza taksonomii (momentum) — kod dopiero dla drugiego (kierunek A, decyzja 2026-10-07)",,2006,168,87b19130e4ae9ebd0bd022876c27a8360d2088bd04462596d932b7098851d01c
+2021-08,https://www.gold.org/goldhub/research/gold-market-commentary-august-2021,macro,tak,2026-10-08 (prompt v2): stopy ruszyły po publikacji danych (jobs data) -> macro (było monetary),stopy po wskazanej publikacji danych -> macro,1216,123,3c727b736b1bf70cb7830538c4e1cb77156276fa1af9c0484507c23f580e6217
+2021-09,https://www.gold.org/goldhub/research/gold-market-commentary-september-2021,,nie,przyczyna: deleveraging na wszystkich rynkach — poza taksonomią / niejednoznaczna,,,,
+2021-11,https://www.gold.org/goldhub/research/gold-market-commentary-november-2021,macro,tak,inflacja (breakeven) jako czynnik dominujący,,3171,219,bd1585c594d930467112d509f034dd01801fe5bad3193505ea4dba16773b4a19
+2022-01,https://www.gold.org/goldhub/research/gold-market-commentary-january-2022,monetary,tak,,rentowności / stopy -> monetary,2083,166,653474eaf79c092768533b79ef77f85ca6328c8d0189f40cf30ce26ddada3573
+2022-02,https://www.gold.org/goldhub/research/gold-market-commentary-february-2022,sovmil,tak,,,1201,160,83d39c8d744c32ce9359b0c5ac7834c2a6daefe556e258843d26b9808f30256f
+2022-03,https://www.gold.org/goldhub/research/gold-market-commentary-march-2022,sovmil,tak,komentarz kwartalny (Q1),,1782,222,bc052e2b7bbd7de404fa0e2e0357398d71a31e5f363c996438fd2cf230acffa6
+2022-04,https://www.gold.org/goldhub/research/gold-market-commentary-april-2022,fx_capital,tak,lista przyczyn GRAM niewidoczna publicznie; zdanie o dolarze,dolar -> fx_capital,4323,75,2a429c47b748557b9ab153a4c311ebb46e11cdf3be53ea8932961bb1c0d87976
+2022-05,https://www.gold.org/goldhub/research/gold-market-commentary-may-2022,,nie,lista przyczyn spadku niewidoczna w publicznej części,,,,
+2022-07,https://www.gold.org/goldhub/research/gold-market-commentary-july-2022,fx_capital,tak,,dolar -> fx_capital,1295,84,939bede90b1c9c681e7d6db36bbd5372f31ebca4d25522c25e689a49c0d66bc8
+2022-08,https://www.gold.org/goldhub/research/gold-market-commentary-august-2022,monetary,tak,pierwszy: rentowności,rentowności / stopy -> monetary,1725,217,cf9e51eb06cd387ccc194324cb5cdc0dab65a9bf9c500711d0185f6c777db8bd
+2022-09,https://www.gold.org/goldhub/research/gold-market-commentary-september-2022,,nie,pozycjonowanie futures / ETF i „rozjazd” modelu — poza taksonomią,,,,
+2022-10,https://www.gold.org/goldhub/research/gold-market-commentary-october-2022,,nie,brak przyczyny ruchu (opis i przepływy),,,,
+2022-12,https://www.gold.org/goldhub/research/gold-market-commentary-december-2022,fx_capital,tak,,dolar -> fx_capital,1550,208,4909f2a80aa7dc5a3c16ae396a2748f3599b1ac280a57b9dfe880024d5deed66
+2023-01,https://www.gold.org/goldhub/research/gold-market-commentary-january-2023,fx_capital,tak,,dolar -> fx_capital,1771,241,8a44f8d0080eda1606219bf856a288eda719e8fda7e6758dd60bf8481b84678f
+2023-02,https://www.gold.org/goldhub/research/gold-market-commentary-february-2023,fx_capital,tak,,dolar -> fx_capital,2011,206,fa300980ade5fc6bc2b965276627fff9f14833d5c6bc42d771e7bb3b7b4aa889
+2023-03,https://www.gold.org/goldhub/research/gold-market-commentary-march-2023,macro,tak,obawy o kryzys gospodarczy (bankowy),,1324,132,8dc3b6bb5020dc89e08b60d02268e7fe63cdd3c42e7194b467ce9e970d73177b
+2023-04,https://www.gold.org/goldhub/research/gold-market-commentary-april-2023,,nie,"kryzys bankowy poza definicją macro (kierunek A, decyzja 2026-10-07)",,1407,168,b22b5ca9b584454b15f7871d3ef412d77fdef91e8b507cef732853b6f6c6432c
+2023-05,https://www.gold.org/goldhub/research/gold-market-commentary-may-2023,fx_capital,tak,,dolar -> fx_capital,1286,103,688c273a102d39fca08719ed96da3a8146d3be90bbe6ff5db02dd04d8d145ff9
+2023-07,https://www.gold.org/goldhub/research/gold-market-commentary-july-2023,macro,tak,,,1944,108,ead1716051dc137f5b493ebed20ff4fc261ada6f3bc2481b52ce923f292784b1
+2023-08,https://www.gold.org/goldhub/research/gold-market-commentary-august-2023,monetary,tak,,rentowności / stopy -> monetary,2161,153,f0bdc5ca551f4800c3e72e629bee33701eb40db97ea873da0f76836c537860df
+2023-09,https://www.gold.org/goldhub/research/gold-market-commentary-september-2023,monetary,tak,,rentowności / stopy -> monetary,1692,164,986fbadd2580f3b8f94774a5148ed69eee035a14d918f3541e0fedd73ca40256
+2023-10,https://www.gold.org/goldhub/research/gold-market-commentary-october-2023,sovmil,tak,,,1333,126,fe355fde2d408f3d803cca31a288d9b8b1f21219db5a598edbbccb790f9abf41
+2023-12,https://www.gold.org/goldhub/research/gold-market-commentary-december-2023,,nie,brak tekstu w publicznej części strony,,,,
+2024-01,https://www.gold.org/goldhub/research/gold-market-commentary-january-2024,,nie,główne przyczyny wg WGC: odpływy ETF i COMEX (poza taksonomią),,,,
+2024-02,https://www.gold.org/goldhub/research/gold-market-commentary-february-2024,,nie,nastrój rynku poza taksonomią (apetyt na ryzyko jako pierwszy/jedyny czynnik; decyzja 2026-10-07),,596,84,01d89afadb5a09912714b95a61a88a3b032499c0dabbe292f5c606cb2a38972e
+2024-03,https://www.gold.org/goldhub/research/gold-market-commentary-march-2024,,nie,"wyłącznie przepływy (futures, ETF)",,,,
+2024-04,https://www.gold.org/goldhub/research/gold-market-commentary-april-2024,,nie,"pierwszy czynnik spoza taksonomii (zakupy chińskie) — kod dopiero dla drugiego (kierunek A, decyzja 2026-10-07)",,1670,132,fb0fa40250bc1ad69fbee488e54a52d06f79ce43f3d09376a9c974146dbe9384
+2024-05,https://www.gold.org/goldhub/research/gold-market-commentary-may-2024,,nie,"wyłącznie przepływy (COMEX, ETF)",,,,
+2024-07,https://www.gold.org/goldhub/research/gold-market-commentary-july-2024,monetary,tak,,rentowności / stopy -> monetary,1627,159,6f738a22844af276840d0e69b9257ff31af7ef9ebdf6dc2555d6d2fc811fe999
+2024-08,https://www.gold.org/goldhub/research/gold-market-commentary-august-2024,monetary,tak,,rentowności / stopy -> monetary,573,138,b01da4a16de050b0f182fafbcb901ff259c9492ec23b46f2af576d46a6004721
+2024-09,https://www.gold.org/goldhub/research/gold-market-commentary-september-2024,sovmil,tak,,,581,117,9399304808e8636aafc88e1c02d7b682de3dae29ab0c33a7356ca42de799ba06
+2024-10,https://www.gold.org/goldhub/research/gold-market-commentary-october-2024,,nie,tekst opisuje początek listopada; „opportunity costs” niejednoznaczne,,,,
+2024-12,https://www.gold.org/goldhub/research/gold-market-commentary-december-2024,fx_capital,tak,,dolar -> fx_capital,542,134,414bdbf84fe4e78657fc15710a84fbad3d482427e294974c846a2771b610b21b
+2025-01,https://www.gold.org/goldhub/research/gold-market-commentary-january-2025,trade_policy,tak,,,551,140,15489c3d9105744b76ab377ac44cac92560eb0868dffbbe74a74cfa8726dccfd
+2025-02,https://www.gold.org/goldhub/research/gold-market-commentary-february-2025,fx_capital,tak,,dolar -> fx_capital,579,102,86b16bb6a1745877977c8ccfbba73eec97aa1171785fa4aeb87e1bb78abe60ec
+2025-03,https://www.gold.org/goldhub/research/gold-market-commentary-march-2025,fx_capital,tak,,dolar -> fx_capital,1120,224,b07b1541915994c2cfc4d87819c354932ef28466c440827c5bad93fbcba91762
+2025-04,https://www.gold.org/goldhub/research/gold-market-commentary-april-2025,fx_capital,tak,,dolar -> fx_capital,612,97,7a2643b0ef7cf10724238b56dd891b7a8a368333ad19af105b19cf92d8826d76
+2025-05,https://www.gold.org/goldhub/research/gold-market-commentary-may-2025,trade_policy,tak,,,567,122,4cb26f92f0b3a26211976e5501c4c9e0457b75e21599f0601ef908a1f9f707fa
+2025-07,https://www.gold.org/goldhub/research/gold-market-commentary-july-2025,macro,tak,,,1069,201,b3e3c4a001df4c878ae1755ec95e71334b2c433da01f5736f72730d276934b2f
+2025-08,https://www.gold.org/goldhub/research/gold-market-commentary-august-2025,fx_capital,tak,,dolar -> fx_capital,575,98,0002b41f9e1f1c29701a3bd40be27e28936f1ac871ee858335f6d629985549c8
+2025-09,https://www.gold.org/goldhub/research/gold-market-commentary-september-2025,,nie,"pierwszy czynnik spoza taksonomii (napięcie polityczne) — kod dopiero dla drugiego (kierunek A, decyzja 2026-10-07)",,608,120,80c24bb6131f5471d40fe2a5b7c400e36340bbaa5a0dfda606d38906efbcb253
+2025-10,https://www.gold.org/goldhub/research/gold-market-commentary-october-2025,,nie,"pierwszy czynnik spoza taksonomii (momentum) — kod dopiero dla drugiego (kierunek A, decyzja 2026-10-07)",,583,103,bed793486a1f7128ac0b7d6c407f4ae6930fc3c0bd3384c1a3b66b7d3aa542d5
+2025-12,https://www.gold.org/goldhub/research/gold-market-commentary-december-2025,monetary,tak,banki centralne (zakupy),zakupy złota przez banki centralne -> monetary,680,111,e3ea882445628931df039a825b3aec7ae7eae83c4f985723a851d539259c8f89
+2026-01,https://www.gold.org/goldhub/research/gold-market-commentary-january-2026,,nie,"tylko perspektywy, bez przyczyny ruchu",,,,
+2026-02,https://www.gold.org/goldhub/research/gold-market-commentary-february-2026,,nie,"pierwszy czynnik spoza taksonomii (zakupy na spadkach) — kod dopiero dla drugiego (kierunek A, decyzja 2026-10-07)",,617,88,4bc60fcc4877f2e0773ab4607fdae43dc057e56b4b97521e032d8283440c758f
+2026-03,https://www.gold.org/goldhub/research/gold-market-commentary-march-2026,,nie,deleveraging i płynność — poza taksonomią,,,,
+2026-04,https://www.gold.org/goldhub/research/gold-market-commentary-april-2026,,nie,nastrój rynku poza taksonomią (apetyt na ryzyko jako pierwszy/jedyny czynnik; decyzja 2026-10-07),,599,65,2e42bfe97f14e423476ff154571f9d9bab972568b0eb28b3e00e78e0d7c25203
+2026-05,https://www.gold.org/goldhub/research/gold-market-commentary-may-2026,,nie,nastrój rynku poza taksonomią (apetyt na ryzyko jako pierwszy/jedyny czynnik; decyzja 2026-10-07),,578,94,e3277560f7c7b29c35b6c4702b152229fff762231cd34a3bc21b16ace4ff605f
+2026-07,https://www.gold.org/goldhub/research/gold-market-commentary-july-2026,,nie,„momentum” i „risk factors” bez konkretu,,,,
+2026-08,https://www.gold.org/goldhub/research/gold-market-commentary-august-2026,,nie,"wyłącznie przepływy (ETF, futures, opcje)",,,,

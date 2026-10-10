@@ -1,0 +1,14 @@
+# Dashboard tylko lokalnie (DECISIONS 2026-10-07; test: tests/test_dashboard.py, na żywo: tools/check_runtime.sh)
+[server]
+address = "127.0.0.1"
+port = 8501
+headless = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+serverAddress = "127.0.0.1"
+serverPort = 8501
+
+[client]
+toolbarMode = "minimal"

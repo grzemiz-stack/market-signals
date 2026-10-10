@@ -1,0 +1,24 @@
+# Niezależna kontrola wzorca E2, runda 3 (2026-10-08, prompt v2): subagent bez narzędzi i plików dostał cytat, kod i
+# opis kodu; pytanie dosłownie „czy cytat mówi to, co opis kodu?”. Kopia publiczna: bez cytatów i uzasadnień (WGC).
+# Wynik: NIE = 0 z 20 -> E2 rusza (bramka ≤ 3). Runda 1: NIE = 7 (zlecenie z dodanym kryterium) -> kierunek A; runda 2: NIE = 0.
+miesiac,kod,zmieniony,TAK/NIE
+2021-04,macro,False,TAK
+2021-08,macro,True,TAK
+2021-11,macro,False,TAK
+2022-03,sovmil,False,TAK
+2022-07,fx_capital,False,TAK
+2022-12,fx_capital,False,TAK
+2023-01,fx_capital,False,TAK
+2023-02,fx_capital,False,TAK
+2023-03,macro,False,TAK
+2023-05,fx_capital,False,TAK
+2023-07,macro,False,TAK
+2023-09,monetary,False,TAK
+2023-10,sovmil,False,TAK
+2024-07,monetary,False,TAK
+2024-08,monetary,False,TAK
+2024-12,fx_capital,False,TAK
+2025-01,trade_policy,False,TAK
+2025-04,fx_capital,False,TAK
+2025-08,fx_capital,False,TAK
+2025-12,monetary,False,TAK

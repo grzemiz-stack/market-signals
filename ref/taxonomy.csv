@@ -1,0 +1,27 @@
+# Taksonomia przyczyn 4N: BBDS (Baker–Bloom–Davis–Sammon) zwinięta do 12 kodów + 8 rozszerzeń (decyzja D4: crypto_supply).
+# bbds = kategorie główne z arkusza wsj_codings mapowane na kod ("|" rozdziela). "other - specify" i "other policy - specify" poza mapą (wyłączone z E1).
+# prompt = definicja produkcyjna kodu (EN) używana w prompcie klasyfikatora; prompt produkcyjny = prompt walidowany.
+# Konwencje doprecyzowane 2026-10-07 przed E2: dolar -> fx_capital, rentowności i zakupy złota przez banki centralne -> monetary.
+# 2026-10-08 (trzecia próba, prompt v2): macro = dane i perspektywy gospodarki, także gdy ruszają stopy; monetary = decyzje
+# i komunikaty BC (+ oczekiwania co do nich), rynkowe stopy/rentowności bez wskazanej publikacji danych; zakupy złota przez BC bez zmian.
+code,origin,opis,bbds,prompt
+macro,bbds,"dane i perspektywy gospodarki (publikacje danych: inflacja i oczekiwania inflacyjne, wzrost, zatrudnienie, recesja) — także gdy ruszają stopy/rentowności",macroeconomic news & outlook,"macroeconomic news & outlook: economic data releases and the economic outlook — inflation and inflation expectations, growth, employment, recession; also when such data releases move interest rates or bond yields"
+monetary,bbds,"decyzje i komunikaty banku centralnego (stopy, QE, wskazówki) i oczekiwania co do nich; rynkowe stopy/rentowności bez wskazanej publikacji danych; zakupy złota przez banki centralne",monetary policy and central banking,"monetary policy and central banking: central bank decisions and statements (policy rates, QE, guidance) and expectations of such decisions; market interest rates and bond yields when no economic data release is named as their driver; central-bank gold purchases"
+sovmil,bbds,"działania militarne i bezpieczeństwa państw (wojny, inwazje, napięcia zbrojne)",sovereign military & security actions,"sovereign military & security actions: wars, invasions, armed conflict, geopolitical tensions between states"
+terror,bbds,"zamachy terrorystyczne, przemoc na dużą skalę ze strony podmiotów niepaństwowych",terrorist attacks & large-scale violence by non-state actors,terrorist attacks & large-scale violence by non-state actors
+commodities,bbds,"inne wiadomości surowcowe, gdy nie pasuje oil_supply / global_demand / metal_shortage",commodities,"other commodities news not covered by oil_supply, global_demand or metal_shortage"
+trade_policy,bbds,"polityka handlowa (cła, embargo handlowe, umowy)",international trade policy,"international trade policy: tariffs, trade wars, trade embargoes, trade agreements"
+regulation,bbds,regulacje (poza krypto),regulation,regulation (other than monetary policy and crypto)
+fiscal,bbds,wydatki rządowe i podatki,government spending|taxes,"government spending, taxes, budget deficits and public debt"
+elections,bbds,wybory i zmiany władzy,elections and political transitions,elections and political transitions
+fx_capital,bbds,kursy walut: siła/słabość dolara i inne ruchy walut; polityka kursowa i kontrola przepływów kapitału,exchange rate policy & capital controls,exchange rates: US dollar strength or weakness and other currency moves; exchange-rate policy and capital controls
+corporate_foreign,bbds,"wyniki spółek, zagraniczne rynki akcji",corporate earnings & outlook|foreign stock market,corporate earnings & outlook; foreign stock markets
+unknown,bbds,brak wyjaśnienia w tekście,unknown & no explanation|no article found,"the text gives no explanation for the move, or no relevant article"
+oil_supply,rozszerzenie,"podaż ropy: decyzje OPEC, awarie, wojny i strajki w krajach producentach, sankcje na eksport ropy, SPR, zapasy",,"oil supply: OPEC decisions, outages, wars/strikes in producing countries, export sanctions, SPR, inventories"
+global_demand,rozszerzenie,"popyt globalny na surowce (recesja światowa, Chiny, kryzys azjatycki, pogoda/zima jako popyt)",,"global commodity demand: world recession, China, Asian crisis, weather as demand"
+metal_shortage,rozszerzenie,"fizyczny niedobór metalu (dostawy, premie, zapasy LBMA/COMEX)",,"physical metal shortage: deliveries, premiums, vault/exchange inventories"
+crypto_regulation,rozszerzenie,"regulacje i zakazy krypto, pozwy SEC",,"crypto regulation, bans, SEC lawsuits"
+crypto_hack,rozszerzenie,"hack, kradzież, upadek protokołu krypto",,"crypto hack, theft, protocol collapse"
+crypto_etf,rozszerzenie,"ETF krypto: decyzje, start notowań, duże przepływy",,"crypto ETF decisions, launches, large flows"
+leverage_liquidations,rozszerzenie,"dźwignia, kaskady likwidacji, depegi stablecoinów, upadki giełd krypto",,"leverage, liquidation cascades, stablecoin depegs, crypto exchange failures"
+crypto_supply,rozszerzenie,zmiana podaży z protokołu krypto (halving),,protocol supply change (halving)

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>__PREFIX__.ollama</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/opt/ollama/bin/ollama</string>
+        <string>serve</string>
+    </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <!-- Tylko lokalnie: nasłuch wyłącznie na pętli zwrotnej (test: tests/test_local_only.py) -->
+        <key>OLLAMA_HOST</key>
+        <string>127.0.0.1:11434</string>
+        <key>OLLAMA_FLASH_ATTENTION</key>
+        <string>1</string>
+        <key>OLLAMA_KV_CACHE_TYPE</key>
+        <string>q8_0</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>WorkingDirectory</key>
+    <string>/opt/homebrew/var</string>
+    <key>StandardOutPath</key>
+    <string>/opt/homebrew/var/log/ollama.log</string>
+    <key>StandardErrorPath</key>
+    <string>/opt/homebrew/var/log/ollama.log</string>
+</dict>
+</plist>

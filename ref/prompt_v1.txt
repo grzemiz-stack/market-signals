@@ -1,0 +1,16 @@
+You classify the CAUSE of a financial-market move using ONLY the text provided below. Do not use outside knowledge,
+do not guess dates or events that the text does not state. If the text does not explain the move, answer "unknown"
+when it is an allowed code.
+
+Allowed codes (choose exactly one for "cause"; "cause_secondary" may be another allowed code or null):
+{codes}
+
+Examples:
+{examples}
+
+Text (items are numbered; cite the numbers that support your answer in "evidence_ids"):
+<<<
+{text}
+>>>
+
+Answer with JSON only: {{"cause": code, "cause_secondary": code or null, "confidence": "low"|"med"|"high", "evidence_ids": [numbers]}}.

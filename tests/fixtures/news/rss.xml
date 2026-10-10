@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Test</title>
+<item><title>Oil rises 3% on supply cut</title><link>https://example.test/a1</link><guid>a1</guid>
+<description>&lt;p&gt;Lead &lt;b&gt;one&lt;/b&gt;.&lt;/p&gt;</description><pubDate>Wed, 07 Oct 2026 03:33:52 -0500</pubDate></item>
+<item><title>No date item</title><link>https://example.test/a2</link><description>Lead two.</description></item>
+</channel></rss>

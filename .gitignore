@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+data/
+logs/
+build/
+*.duckdb
+*.duckdb.wal
+.env.*
+!.env.example
+.DS_Store
+.pytest_cache/
+reports/paper-*.md
+# Wzorzec E2 z cytatami WGC — tylko lokalnie (src/e2_wgc_restore.py), warunki gold.org: użytek osobisty
+ref/e2_wgc_gold.csv

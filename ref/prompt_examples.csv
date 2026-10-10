@@ -1,0 +1,18 @@
+# Przykłady few-shot dla kodów-rozszerzeń (napisane ręcznie 2026-10-07, ogólne, bez dat; nie pochodzą z żadnego zbioru testowego).
+code,text
+oil_supply,"[1] Producers in the cartel agreed to cut output by a further million barrels a day, sending crude futures higher."
+oil_supply,"[1] A pipeline outage and a strike at export terminals removed a large share of the country's crude shipments."
+global_demand,"[1] Fears of a worldwide slowdown and weak factory orders in the largest importing economies pushed commodity prices down."
+global_demand,"[1] An unusually cold winter lifted heating fuel consumption across the northern hemisphere."
+metal_shortage,"[1] Vault stocks fell to multi-year lows and physical premiums jumped as refiners struggled to supply bars."
+metal_shortage,"[1] Delivery requests on the exchange exceeded available inventory, squeezing nearby contracts."
+crypto_regulation,"[1] The securities regulator sued a major exchange, alleging it traded unregistered tokens."
+crypto_regulation,"[1] The government banned domestic platforms from offering trading in digital currencies."
+crypto_hack,"[1] Hackers drained several hundred million dollars from a cross-chain bridge, the protocol said."
+crypto_hack,"[1] A lending protocol collapsed after an exploit emptied its reserves."
+crypto_etf,"[1] Regulators approved the first spot bitcoin exchange-traded funds, which began trading the next day."
+crypto_etf,"[1] Spot ether funds recorded their largest daily inflows since launch."
+leverage_liquidations,"[1] More than a billion dollars of leveraged long positions were liquidated in a cascade across derivatives venues."
+leverage_liquidations,"[1] A large stablecoin lost its dollar peg, triggering forced selling by lenders."
+crypto_supply,"[1] The scheduled halving cut the block reward paid to miners in half."
+crypto_supply,"[1] The network upgrade changed the token issuance schedule, reducing new supply."
