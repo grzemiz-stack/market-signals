@@ -57,26 +57,41 @@ avoiding those mistakes, and it reports what failed as plainly as what worked.
 
 ```mermaid
 flowchart LR
-    FRED[FRED / EIA / CFTC / NBP] --> SNAP
-    MKT[Yahoo / Stooq / Binance /<br/>Deribit / Coin Metrics] --> SNAP
-    GD[GDELT 2.0 events] --> SNAP
-    LIT[Research datasets<br/>BBDS, GPR, oil shocks] --> SNAP
-    RSS[RSS feeds<br/>robots.txt RFC 9309] --> NEWS
+    FRED["FRED, EIA, CFTC, NBP"]
+    MKT["Yahoo, Stooq, Binance,<br/>Deribit, Coin Metrics"]
+    GD["GDELT 2.0 events"]
+    LIT["Research datasets<br/>BBDS, GPR, oil shocks"]
+    RSS["RSS feeds<br/>robots.txt per RFC 9309"]
 
-    SNAP[job: snapshot · daily 23:30<br/>raw snapshots → collect → GDELT →<br/>features → forecasts → rules → checks] --> OBS
-    NEWS[job: news · hourly] --> NDB
-    REG[job: registry · monthly<br/>champion promotion/demotion] <--> OBS
-    OBS --> SYS[job: system · daily 23:50<br/>rule accounts + paper executions] --> PDB
+    SNAP["job snapshot, daily 23:30<br/>raw snapshots, collect, GDELT,<br/>features, forecasts, rules, checks"]
+    NEWS["job news, hourly"]
+    REG["job registry, monthly<br/>champion promotion and demotion"]
+    SYS["job system, daily 23:50<br/>rule accounts and paper executions"]
 
-    OBS[(market.duckdb<br/>observed_at + known_at,<br/>features, labels, forecasts, runs)]
-    NDB[(news.duckdb)]
-    PDB[(paper.duckdb<br/>paper accounts)]
+    OBS[("market.duckdb<br/>observed_at and known_at,<br/>features, labels, forecasts, runs")]
+    NDB[("news.duckdb")]
+    PDB[("paper.duckdb<br/>paper accounts")]
+    VIEW[("market_view and news_view<br/>read-only published copies")]
 
-    OBS --> VIEW[(market_view / news_view<br/>read-only published copies)]
+    DASH["Streamlit dashboard<br/>127.0.0.1 port 8501"]
+    LLM["Ollama on 127.0.0.1<br/>Qwen cause classifier<br/>NOT validated, unused"]
+
+    FRED --> SNAP
+    MKT --> SNAP
+    GD --> SNAP
+    LIT --> SNAP
+    RSS --> NEWS
+    SNAP --> OBS
+    NEWS --> NDB
+    OBS --> REG
+    REG --> OBS
+    OBS --> SYS
+    SYS --> PDB
+    OBS --> VIEW
     NDB --> VIEW
-    VIEW --> DASH[Streamlit dashboard<br/>127.0.0.1:8501]
-    PDB -. read-only .-> DASH
-    OBS -. validation runs .-> LLM[Ollama on 127.0.0.1<br/>Qwen cause classifier<br/>NOT validated, unused]
+    VIEW --> DASH
+    PDB -.->|"read-only"| DASH
+    OBS -.->|"validation runs"| LLM
 ```
 
 Sources are download-only, from an allowlist. Jobs run under launchd, catch up after the Mac sleeps, and use `lockf`
